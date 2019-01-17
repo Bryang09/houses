@@ -1,0 +1,53 @@
+$box: #031a3a;
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  height: 78px;
+  .box {
+    width: 5vw;
+    background: $box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      color: #fff;
+      font-size: 30px;
+      height: 32px;
+      width: 32px;
+    }
+  }
+
+  .logo {
+    width: 30vw;
+    text-align: center;
+
+    h4 {
+      font-size: 20px;
+    }
+  }
+  .navContent {
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+
+    h5 {
+      width: 10%;
+      margin: auto 1.5%;
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+    #box2 {
+      border: 1px solid $box;
+      text-align: center;
+      background: $box;
+      color: #fff;
+      padding: 0.7vh 0.5vw;
+    }
+  }
+}
