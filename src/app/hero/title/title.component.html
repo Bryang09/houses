@@ -1,0 +1,23 @@
+<div class="heroTitle">
+  <div class="heroText1">
+    <h5><i class="fas fa-map-marker-alt"></i> Houston, Texas</h5>
+    <h1>Find your home today.</h1>
+  </div>
+  <div class="heroText2">
+    <h5 (click)="onShare()">
+      <i
+        class="fas fa-share-alt"
+        [ngStyle]="{ color: share ? '#3db64d' : '#2a3139' }"
+      ></i>
+      Share
+    </h5>
+    <hr />
+    <h5 (click)="onHeart()">
+      <i
+        class="{{ class }}"
+        [ngStyle]="{ color: heart ? '#ff4a4a' : '#2a3139' }"
+      ></i
+      >Save
+    </h5>
+  </div>
+</div>
