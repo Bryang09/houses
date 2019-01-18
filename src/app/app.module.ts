@@ -14,6 +14,7 @@ import { AngularFireModule } from "@angular/fire";
 import { AngularFirestoreModule } from "angularfire2/firestore";
 import { Section2Component } from './section2/section2.component';
 import { ListingsComponent } from './Section1/listings/listings.component';
+import { Section3Component } from './section3/section3.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ListingsComponent } from './Section1/listings/listings.component';
     ModalComponent,
     Section1Component,
     Section2Component,
-    ListingsComponent
+    ListingsComponent,
+    Section3Component
   ],
   imports: [
     BrowserModule,

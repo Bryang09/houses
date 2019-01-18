@@ -1,0 +1,49 @@
+.Section3 {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 15vh;
+
+  .top {
+    h2 {
+      font-size: 45px;
+      border-left: 3px solid #39bafe;
+      padding-left: 1vw;
+      color: #2e3339;
+      margin: 0;
+      margin-bottom: 5vh;
+      width: 70%;
+    }
+  }
+
+  .iconsContainer {
+    display: flex;
+
+    .icon {
+      width: 30%;
+      margin: 0 1.5%;
+
+      .iconBox {
+        background: #031a3c;
+        width: 50px;
+        text-align: center;
+        border-radius: 3px;
+
+        i {
+          padding: 20px 10px;
+          color: #fff;
+          font-size: 26px;
+        }
+      }
+      .text {
+        h4 {
+          font-size: 25px;
+          color: #2e3339;
+        }
+        p {
+          font-weight: 400;
+          color: #cecece;
+        }
+      }
+    }
+  }
+}
