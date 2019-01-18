@@ -1,0 +1,60 @@
+.Section2 {
+  height: 80vh;
+  display: flex;
+  margin-top: 15vh;
+
+  .modal {
+    width: 30vw;
+    height: 50%;
+    background: #0fa9ff;
+    margin-left: 15vw;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h4,
+    p {
+      width: 90%;
+      margin: auto;
+    }
+
+    h4 {
+      margin: 3vh auto;
+      font-size: 20px;
+    }
+
+    p {
+      width: 90%;
+      margin: 1.2vh auto;
+    }
+  }
+
+  .right {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-size: 45px;
+      border-left: 3px solid #39bafe;
+      padding-left: 1vw;
+      color: #2e3339;
+      margin: 0;
+      margin-bottom: 5vh;
+    }
+
+    .img {
+      height: 80%;
+      background: url(https://images.unsplash.com/photo-1537726235470-8504e3beef77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+        no-repeat center center / cover;
+      width: 100%;
+      transform: translateX(-20vh);
+    }
+  }
+}
