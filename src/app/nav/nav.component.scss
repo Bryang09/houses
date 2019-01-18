@@ -1,9 +1,9 @@
 $box: #031a3a;
 
 .nav {
-  position: fixed;
-  top: 0;
-  left: 0;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
   width: 100vw;
   display: flex;
   height: 78px;
@@ -28,6 +28,10 @@ $box: #031a3a;
 
     h4 {
       font-size: 20px;
+
+      span {
+        color: #0da9fc;
+      }
     }
   }
   .navContent {

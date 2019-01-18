@@ -1,5 +1,42 @@
 <div class="hero">
   <div class="heroTitle">
-    <h5><i class="fas fa-map-marker-alt"></i></h5>
+    <div class="heroText1">
+      <h5><i class="fas fa-map-marker-alt"></i> Houston, Texas</h5>
+      <h1>Find your home today.</h1>
+    </div>
+    <div class="heroText2">
+      <h5 (click)="onShare()">
+        <i
+          class="fas fa-share-alt"
+          [ngStyle]="{ color: share ? '#3db64d' : '#2a3139' }"
+        ></i>
+        Share
+      </h5>
+      <hr />
+      <h5 (click)="onHeart()">
+        <i
+          class="{{ class }}"
+          [ngStyle]="{ color: heart ? '#ff4a4a' : '#2a3139' }"
+        ></i
+        >Save
+      </h5>
+    </div>
+  </div>
+  <div class="heroImg"></div>
+  <div class="heroModal">
+    <div class="Modal">
+      <div class="top">
+        <h5>From <span>$1950/mn</span></h5>
+      </div>
+      <div class="middle">
+        <div class="box1">
+          <h6>Feb 2019</h6>
+          <hr />
+          <h6>Mar 2022</h6>
+        </div>
+        <div class="box2"><h6>3 Yers</h6></div>
+      </div>
+      <div class="bottom"><h5>Book Now</h5></div>
+    </div>
   </div>
 </div>
