@@ -1,0 +1,37 @@
+<div class="Section1">
+  <div class="sectionInfo"><h2>Our Latest Listings</h2></div>
+  <div class="listingsContainer">
+    <div class="listingItem" *ngFor="let list of (lists | async)">
+      <div class="img" [style.background-image]="'url(' + list.img + ')'">
+        <div
+          class="icon"
+          (click)="
+            list.price === '250,000'
+              ? onLikeOne()
+              : list.price === '170,000.00'
+              ? onLikeTwo()
+              : list.price === '350,000'
+              ? onLikeThree()
+              : null
+          "
+          [ngStyle]="{
+            background:
+              likeOne && list.price === '250,000'
+                ? '#39bafe'
+                : likeTwo && list.price === '170,000.00'
+                ? '#39bafe'
+                : likeThree && list.price === '350,000'
+                ? '#39bafe'
+                : null
+          }"
+        >
+          <i class="far fa-heart"></i>
+        </div>
+      </div>
+      <div class="info">
+        <h3>$ {{ list.price }}</h3>
+        <h5>Houston - {{ list.rooms }}</h5>
+      </div>
+    </div>
+  </div>
+</div>
