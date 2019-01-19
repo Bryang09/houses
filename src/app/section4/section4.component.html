@@ -7,7 +7,12 @@
       <h5>Suscribe for new listings.</h5>
     </div>
     <div class="input">
-      <input type="text" id="input" placeholder="Enter your Email Address" />
+      <input
+        (keydown.enter)="onClick()"
+        type="text"
+        id="input"
+        placeholder="Enter your Email Address"
+      />
       <i class="fab fa-telegram-plane" (click)="onClick()"></i>
     </div>
     <div class="message" [ngStyle]="{ display: sent ? 'flex' : 'none' }">

@@ -1,0 +1,48 @@
+.footer {
+  width: 60vw;
+  margin: 0 auto;
+  .footerContent {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 0.5px solid #eee;
+
+    .section {
+      width: 23%;
+      margin: 0 1%;
+
+      h5 {
+        font-weight: 400;
+        color: #cecece;
+      }
+    }
+  }
+
+  .footerCopy {
+    display: flex;
+    h6 {
+      color: #cecece;
+      font-weight: 400;
+    }
+
+    .copy {
+      width: 50%;
+    }
+    .address {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+@media screen and (max-width: 1192px) {
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 500px) {
+}

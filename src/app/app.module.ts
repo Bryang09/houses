@@ -16,6 +16,7 @@ import { Section2Component } from './section2/section2.component';
 import { ListingsComponent } from './Section1/listings/listings.component';
 import { Section3Component } from './section3/section3.component';
 import { Section4Component } from './section4/section4.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { Section4Component } from './section4/section4.component';
     Section2Component,
     ListingsComponent,
     Section3Component,
-    Section4Component
+    Section4Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -11,3 +11,35 @@
     <h5 id="box2">Join Us</h5>
   </div>
 </nav>
+
+<nav class="mobileNav">
+  <div class="burger" (click)="onBurger()">
+    <div
+      class="line line1"
+      [ngStyle]="{
+        transform: burger ? 'rotate(45deg) translate(3px,3px)' : 'translateY(0)'
+      }"
+    ></div>
+    <div
+      class="line line2"
+      [ngStyle]="{ display: burger ? 'none' : 'flex' }"
+    ></div>
+    <div
+      class="line line3"
+      [ngStyle]="{
+        transform: burger
+          ? 'rotate(-45deg) translate(2px, -2px)'
+          : 'translateY(0)'
+      }"
+    ></div>
+  </div>
+
+  <div class="navigation" [ngStyle]="{ display: burger ? 'flex' : 'none' }">
+    <h3>Bryan's Listings</h3>
+    <h4>For Sale</h4>
+    <h4>For Rent</h4>
+    <h4>Mortgage</h4>
+    <h4>Contact</h4>
+    <h4 id="box2">Join Us</h4>
+  </div>
+</nav>

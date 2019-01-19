@@ -57,3 +57,19 @@
     }
   }
 }
+
+@media screen and (max-width: 991px) {
+  .listingsContainer {
+    flex-direction: column;
+    height: 100%;
+
+    .listingItem {
+      width: 90%;
+      margin: 5vh auto;
+
+      .info {
+        height: 50px;
+      }
+    }
+  }
+}
