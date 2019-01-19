@@ -60,6 +60,26 @@
 }
 
 @media screen and (max-width: 1192px) {
+  .Section2 {
+    height: 100%;
+    .right {
+      width: 60%;
+
+      h2 {
+        margin-right: 80px;
+        font-size: 35px;
+      }
+      .img {
+        height: 600px;
+        width: 850px;
+      }
+    }
+    .modal {
+      width: 40%;
+      margin-left: 0;
+      transform: translateX(2vw);
+    }
+  }
 }
 @media screen and (max-width: 991px) {
   .Section2 {
@@ -76,6 +96,7 @@
 
       .img {
         height: 1050px;
+        width: 100vw;
         transform: translateX(0);
       }
     }
@@ -83,7 +104,7 @@
       height: 530px;
       width: 100vw;
       margin: 0;
-
+      transform: translateX(0);
       h4 {
         font-size: 35px;
       }
@@ -101,6 +122,7 @@
 }
 @media screen and (max-width: 600px) {
   .Section2 {
+    margin-top: 5vh;
     .right {
       h2 {
         font-size: 30px;
@@ -118,7 +140,7 @@
   .Section2 {
     .right {
       h2 {
-        font-size: 30px;
+        font-size: 28px;
       }
 
       .img {

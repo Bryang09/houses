@@ -13,6 +13,16 @@
   }
 }
 
+@media screen and (max-width: 1192px) {
+  .Section1 {
+    .sectionInfo {
+      h2 {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 991px) {
   .Section1 {
     height: 100%;
@@ -21,6 +31,30 @@
 
       h2 {
         font-size: 35px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .Section1 {
+    height: 100%;
+    .sectionInfo {
+      margin-left: 5vw;
+
+      h2 {
+        font-size: 35px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .Section1 {
+    height: 100%;
+    .sectionInfo {
+      margin-left: 5vw;
+
+      h2 {
+        font-size: 28px;
       }
     }
   }

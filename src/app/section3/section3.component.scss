@@ -49,12 +49,71 @@
 }
 
 @media screen and (max-width: 1192px) {
+  .Section3 {
+    width: 90vw;
+    .top {
+      h2 {
+        width: 90%;
+        font-size: 35px;
+      }
+    }
+    .iconsContainer {
+      .icon {
+        .iconBox {
+          i {
+            padding: 15px 10px;
+          }
+        }
+        .text {
+          h4 {
+            font-size: 22px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 991px) {
+  .Section3 {
+    .iconsContainer {
+      flex-direction: column;
+
+      .icon {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+    }
+  }
 }
 @media screen and (max-width: 768px) {
+  .Section3 {
+    .top {
+      h2 {
+        width: 95%;
+        border: 0;
+      }
+    }
+  }
 }
 @media screen and (max-width: 600px) {
+  .Section3 {
+    margin-top: 5vh;
+    .top {
+      h2 {
+        font-size: 28px;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
 }
 @media screen and (max-width: 500px) {
 }
