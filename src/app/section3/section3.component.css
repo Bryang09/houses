@@ -1,0 +1,114 @@
+.Section3 {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 15vh;
+}
+
+.Section3 .top h2 {
+  font-size: 45px;
+  border-left: 3px solid #39bafe;
+  padding-left: 1vw;
+  color: #2e3339;
+  margin: 0;
+  margin-bottom: 5vh;
+  width: 70%;
+}
+
+.Section3 .iconsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Section3 .iconsContainer .icon {
+  width: 30%;
+  margin: 0 1.5%;
+}
+
+.Section3 .iconsContainer .icon .iconBox {
+  background: #031a3c;
+  width: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.Section3 .iconsContainer .icon .iconBox i {
+  padding: 20px 10px;
+  color: #fff;
+  font-size: 26px;
+}
+
+.Section3 .iconsContainer .icon .text h4 {
+  font-size: 25px;
+  color: #2e3339;
+}
+
+.Section3 .iconsContainer .icon .text p {
+  font-weight: 400;
+  color: #cecece;
+}
+
+@media screen and (max-width: 1192px) {
+  .Section3 {
+    width: 90vw;
+  }
+  .Section3 .top h2 {
+    width: 90%;
+    font-size: 35px;
+  }
+  .Section3 .iconsContainer .icon .iconBox i {
+    padding: 15px 10px;
+  }
+  .Section3 .iconsContainer .icon .text h4 {
+    font-size: 22px;
+  }
+  .Section3 .iconsContainer .icon .text p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Section3 .iconsContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Section3 .iconsContainer .icon {
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Section3 .top h2 {
+    width: 95%;
+    border: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Section3 {
+    margin-top: 5vh;
+  }
+  .Section3 .top h2 {
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=section3.component.css.map */

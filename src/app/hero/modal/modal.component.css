@@ -1,0 +1,200 @@
+.heroModal {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.heroModal .Modal {
+  width: 330px;
+  height: 300px;
+  margin-right: 15vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: translateY(-151px);
+          transform: translateY(-151px);
+}
+
+.heroModal .Modal .top {
+  height: 20%;
+  background: #0fa9ff;
+}
+
+.heroModal .Modal .top h5 {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.heroModal .Modal .top h5 span {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.heroModal .Modal .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30%;
+  background: #39bafe;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heroModal .Modal .middle .box1 {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  margin-left: 2vw;
+  text-align: center;
+  height: 50%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heroModal .Modal .middle .box1 hr {
+  margin: auto 0;
+  height: 40%;
+  border-right: 0;
+}
+
+.heroModal .Modal .middle .box1 h6 {
+  text-align: center;
+  width: 50%;
+  font-size: 12px;
+  color: #b4b4b4;
+  font-weight: 400;
+  margin: 0;
+}
+
+.heroModal .Modal .middle .box2 {
+  width: 30%;
+  text-align: center;
+  background: #fff;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #b4b4b4;
+  font-weight: 400;
+  margin-right: 1vw;
+}
+
+.heroModal .Modal .middle .box2 h6 {
+  font-weight: 400;
+}
+
+.heroModal .Modal .bottom {
+  height: 50%;
+  background: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heroModal .Modal .bottom h5 {
+  border: 1px solid #fff;
+  background: #fff;
+  padding: 15px 2vw;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1192px) {
+  .heroModal .Modal {
+    width: 330px;
+    height: 265px;
+    -webkit-transform: translateY(-127px);
+            transform: translateY(-127px);
+  }
+  .heroModal .Modal .bottom {
+    padding: 9px 4vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .heroModal .Modal {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    width: 100vw;
+    margin-right: 0;
+    height: 100vh;
+  }
+  .heroModal .Modal .top {
+    height: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .heroModal .Modal .top h5 {
+    font-size: 28px;
+    font-weight: 300;
+  }
+  .heroModal .Modal .top h5 span {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .heroModal .Modal .middle {
+    height: 30%;
+  }
+  .heroModal .Modal .middle .box1 {
+    width: 50%;
+    margin: 0;
+    margin-left: 1vh;
+    height: 20%;
+  }
+  .heroModal .Modal .middle .box2 {
+    margin-left: 3vw;
+    height: 20%;
+  }
+  .heroModal .Modal .bottom {
+    height: 40%;
+  }
+  .heroModal .Modal .bottom h5 {
+    padding: 20px 45px;
+  }
+}
+/*# sourceMappingURL=modal.component.css.map */

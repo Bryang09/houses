@@ -1,7 +1,7 @@
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 
-import { config } from "../environments/environment";
+import { environment } from "../environments/environment.prod";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -12,11 +12,11 @@ import { ModalComponent } from "./hero/modal/modal.component";
 import { Section1Component } from "./section1/section1.component";
 import { AngularFireModule } from "@angular/fire";
 import { AngularFirestoreModule } from "angularfire2/firestore";
-import { Section2Component } from './section2/section2.component';
-import { ListingsComponent } from './Section1/listings/listings.component';
-import { Section3Component } from './section3/section3.component';
-import { Section4Component } from './section4/section4.component';
-import { FooterComponent } from './footer/footer.component';
+import { Section2Component } from "./section2/section2.component";
+import { ListingsComponent } from "./section1/listings/listings.component";
+import { Section3Component } from "./section3/section3.component";
+import { Section4Component } from "./section4/section4.component";
+import { FooterComponent } from "./footer/footer.component";
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(config),
+    AngularFireModule.initializeApp(environment.firesbase, "houses"),
     AngularFirestoreModule
   ],
   providers: [],
