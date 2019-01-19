@@ -37,12 +37,41 @@
 }
 
 @media screen and (max-width: 1192px) {
+  .footer {
+    width: 80vw;
+  }
 }
 @media screen and (max-width: 991px) {
 }
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 600px) {
+  .footer {
+    margin-top: 10vh;
+
+    .footerContent {
+      flex-direction: column;
+
+      .section {
+        width: 100%;
+      }
+    }
+  }
 }
 @media screen and (max-width: 500px) {
+  .footer {
+    width: 95vw;
+    margin-top: 10vh;
+    margin-left: 5vw;
+
+    .footerContent {
+      flex-direction: column;
+    }
+
+    .footerCopy {
+      .address {
+        justify-content: center;
+      }
+    }
+  }
 }

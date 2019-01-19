@@ -147,15 +147,13 @@
   .form {
     width: 90vw;
     height: 150px;
-    .label {
-      .input {
-        input {
-          font-size: 12px;
-          width: 70%;
-        }
-        ::placeholder {
-          font-size: 12px;
-        }
+    .input {
+      input {
+        font-size: 12px;
+        width: 70%;
+      }
+      ::placeholder {
+        font-size: 12px;
       }
     }
   }
